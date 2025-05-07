@@ -24,6 +24,14 @@ Task CompletionAs users complete tasks, their dashboard updates dynamically to r
 Earn Badges & TrophiesBadges are earned for each completed category, and the prestigious Golden Roadrunner Badge is awarded for 100% completion.
 Return to DashboardNavigation buttons allow easy movement back to the main dashboard at any point.
 
+## Usage
+
+Log in or sign up to access your personalized dashboard.
+Navigate through genres to complete checklists and earn badges.
+Track your progress and view your earned trophies in the dashboard.
+you would have to press the button save and exit to update your progress
+Complete all tasks to earn the prestigious Golden Roadrunner Badge.
+
 ## Installation
 
 Clone the repository:
@@ -34,16 +42,6 @@ Install dependencies:
 npm install
 Run the application:
 npm start
-
-## Usage
-
-Log in or sign up to access your personalized dashboard.
-Navigate through genres to complete checklists and earn badges.
-Track your progress and view your earned trophies in the dashboard.
-you would have to press the button save and exit to update your progress
-Complete all tasks to earn the prestigious Golden Roadrunner Badge.
-
-
 ## License
 
 This project is licensed under the MIT License - see the LICENSE.md file for details.
