@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="0dp"
+    android:background="#FFFFFF"
+    tools:context=".YourActivity">
+
+    <!-- Header with Background Image and Overlay Text -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+        <ImageView
+            android:id="@+id/headerBackground"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/profile"
+            android:contentDescription="Header Background" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/username_dash"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="USERNAME"
+                android:textSize="30sp"
+                android:fontFamily="casual"
+                android:textStyle="bold"
+                android:layout_marginLeft="70dp"
+                android:textColor="#FFFFFF"
+                android:layout_marginBottom="4dp" />
+
+            <TextView
+                android:id="@+id/first_last_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="First Last"
+                android:fontFamily="casual"
+                android:textStyle="bold"
+                android:textSize="25sp"
+                android:layout_marginLeft="70dp"
+
+                android:textColor="#EEEEEE"
+                android:layout_marginBottom="4dp" />
+
+            <TextView
+                android:id="@+id/graduation_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Class of 2027"
+                android:layout_marginLeft="70dp"
+                android:fontFamily="casual"
+                android:textSize="18sp"
+                android:textColor="#CCCCCC" />
+        </LinearLayout>
+    </FrameLayout>
+
+    <!-- Food Section -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <ImageButton
+            android:id="@+id/foodButton"
+            android:layout_width="202dp"
+            android:layout_height="124dp"
+            android:background="@drawable/food"
+            android:padding="0dp"
+            android:text="" />
+
+
+
+        <ImageView
+            android:id="@+id/foodbadge"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            tools:srcCompat="@tools:sample/backgrounds/scenic" />
+    </LinearLayout>
+
+    <!-- Nightlife Section -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <ImageButton
+            android:id="@+id/nightlifeButton"
+            android:layout_width="202dp"
+            android:layout_height="124dp"
+            android:background="@drawable/nightlife"
+            android:padding="0dp"
+            android:text="" />
+
+        <ImageView
+            android:id="@+id/nightlifebadge"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            tools:srcCompat="@tools:sample/backgrounds/scenic" />
+    </LinearLayout>
+
+    <!-- Sports Section -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <ImageButton
+            android:id="@+id/sportsButton"
+            android:layout_width="202dp"
+            android:layout_height="124dp"
+            android:background="@drawable/sports"
+            android:padding="0dp"
+            android:text="" />
+
+        <ImageView
+            android:id="@+id/sportsbadge"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            tools:srcCompat="@tools:sample/backgrounds/scenic" />
+    </LinearLayout>
+
+    <!-- Buildings Section -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <ImageButton
+            android:id="@+id/buildingsButton"
+            android:layout_width="202dp"
+            android:layout_height="124dp"
+            android:background="@drawable/buildings"
+            android:padding="0dp"
+            android:text="" />
+
+        <ImageView
+            android:id="@+id/buildingsbadge"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            tools:srcCompat="@tools:sample/backgrounds/scenic" />
+    </LinearLayout>
+
+    <!-- Activities Section -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <ImageButton
+            android:id="@+id/activitiesButton"
+            android:layout_width="202dp"
+            android:layout_height="124dp"
+            android:background="@drawable/activities"
+            android:padding="0dp"
+            android:text="" />
+
+        <ImageView
+            android:id="@+id/activitiesbadge"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            tools:srcCompat="@tools:sample/backgrounds/scenic" />
+    </LinearLayout>
+
+</LinearLayout>

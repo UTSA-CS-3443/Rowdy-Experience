@@ -1,0 +1,12 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Rowdyexperience" parent="Theme.Material3.DayNight.NoActionBar">
+
+        <item name="colorControlActivated">#002D72</item>
+
+    </style>
+
+    <!-- themes.xml -->
+
+    <style name="Theme.Rowdyexperience" parent="Base.Theme.Rowdyexperience" />
+</resources>
