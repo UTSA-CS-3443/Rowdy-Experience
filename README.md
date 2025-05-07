@@ -2,6 +2,12 @@
 
 Rowdy Experience (RowdyXP) is an engaging mobile application designed exclusively for UTSA students. Its purpose is to enhance school pride and community spirit by providing a checklist of activities and challenges to complete, rewarding users with badges as they explore various aspects of campus life. Through gamification, RowdyXP encourages students to discover new places, participate in events, and connect with the UTSA community.
 
+## Contributors
+Samuel Garza
+Prince Patel
+Hannah Stanek
+D’vonne Hmielewski
+
 ## Features
 
 Login & Profile Creation: Users create an account or log in to an existing one to access their personalized dashboard.
@@ -32,6 +38,8 @@ Track your progress and view your earned trophies in the dashboard.
 you would have to press the button save and exit to update your progress
 Complete all tasks to earn the prestigious Golden Roadrunner Badge.
 
+## Known Issues
+We are unaware of any issues with our project. 
 
 ## Contact
 
