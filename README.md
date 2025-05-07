@@ -40,15 +40,9 @@ npm start
 Log in or sign up to access your personalized dashboard.
 Navigate through genres to complete checklists and earn badges.
 Track your progress and view your earned trophies in the dashboard.
+you would have to press the button save and exit to update your progress
 Complete all tasks to earn the prestigious Golden Roadrunner Badge.
 
-## Contributing
-
-Fork the repository.
-Create your feature branch (git checkout -b feature/AmazingFeature).
-Commit your changes (git commit -m 'Add some AmazingFeature').
-Push to the branch (git push origin feature/AmazingFeature).
-Open a Pull Request.
 
 ## License
 
