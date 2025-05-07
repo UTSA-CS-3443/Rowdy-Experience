@@ -32,19 +32,6 @@ Track your progress and view your earned trophies in the dashboard.
 you would have to press the button save and exit to update your progress
 Complete all tasks to earn the prestigious Golden Roadrunner Badge.
 
-## Installation
-
-Clone the repository:
-git clone https://github.com/YourRepo/RowdyXP.git
-Navigate to the project directory:
-cd RowdyXP
-Install dependencies:
-npm install
-Run the application:
-npm start
-## License
-
-This project is licensed under the MIT License - see the LICENSE.md file for details.
 
 ## Contact
 
