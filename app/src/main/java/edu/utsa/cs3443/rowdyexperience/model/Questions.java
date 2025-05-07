@@ -4,7 +4,6 @@ package edu.utsa.cs3443.rowdyexperience.model;
 /**
  * Represents a question in the Rowdy Experience application.
  * Each question has a text description and a boolean check status indicating whether it has been completed.
- *
  */
 public class Questions {
     private String question;

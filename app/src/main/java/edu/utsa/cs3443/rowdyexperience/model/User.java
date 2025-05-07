@@ -11,7 +11,6 @@ import java.util.Scanner;
  * Represents a user in the Rowdy Experience application.
  * Each user has personal information like name, username, year, major, and password,
  * along with a collection of badges representing their achievements.
- *s
  */
 public class User {
     private String firstName;

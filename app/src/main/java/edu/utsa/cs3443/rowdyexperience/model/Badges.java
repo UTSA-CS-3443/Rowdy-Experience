@@ -3,7 +3,6 @@ package edu.utsa.cs3443.rowdyexperience.model;
 /**
  * Represents a badge in the Rowdy Experience application.
  * Each badge has a name and a tier indicating its level.
- *
  */
 
 public class Badges {

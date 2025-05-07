@@ -12,7 +12,6 @@ import java.util.Scanner;
 /**
  * Represents a checklist used in the Rowdy Experience application.
  * This class manages a list of questions and calculates the completion percentage.
- *
  */
 
 public class Checklist {
